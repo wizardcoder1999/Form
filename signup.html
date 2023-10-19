@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="shortcut icon" href="./batman.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/be884f2513.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <h1>Sign-up</h1>
+        <label for="first-name">First name</label><br>
+        <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required><br>
+        
+        <label for="last-name">Last name</label><br>
+        <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required><br>
+        
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+        
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter a password" required><br>
+        
+        <label for="mobile">Mobile Number</label><br>
+        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required><br>
+        
+        <label for="gender">Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br>
+        <br>
+        <label for="dob">D.O.B</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+        
+        <label for="age">Age</label><br>
+        <input type="range" id="age" name="age" placeholder="Enter your age" required><br>
+        
+        <label for="image">Upload image</label><br>
+        <input type="file" id="image" name="image" accept="image/*" required><br>
+        
+        <label for="create-password">Create Password</label><br>
+        <input type="password" id="create-password" name="create-password" placeholder="Enter a password" required><br>
+        
+        <label for="confirm-password">Confirm Password</label><br>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required><br>
+        
+        <label for="terms">I have read and agree to the Terms & Conditions</label><br>
+        <input type="checkbox" id="terms" name="terms" required>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
